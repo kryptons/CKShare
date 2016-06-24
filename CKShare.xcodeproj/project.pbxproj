@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A770416D1D1D80F7009833D8 /* CKShareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A77041661D1D80F7009833D8 /* CKShareCell.m */; };
+		A770416E1D1D80F7009833D8 /* CKShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A77041681D1D80F7009833D8 /* CKShareItem.m */; };
+		A770416F1D1D80F7009833D8 /* CKShareModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A770416A1D1D80F7009833D8 /* CKShareModel.m */; };
+		A77041701D1D80F7009833D8 /* CKShareSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = A770416C1D1D80F7009833D8 /* CKShareSheet.m */; };
+		DE04CBCD1BD4F0AC00B7C56F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE04CBCC1BD4F0AC00B7C56F /* main.m */; };
+		DE04CBD01BD4F0AC00B7C56F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE04CBCF1BD4F0AC00B7C56F /* AppDelegate.m */; };
+		DE04CBD31BD4F0AC00B7C56F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE04CBD21BD4F0AC00B7C56F /* ViewController.m */; };
+		DE04CBD61BD4F0AC00B7C56F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE04CBD41BD4F0AC00B7C56F /* Main.storyboard */; };
+		DE04CBD81BD4F0AC00B7C56F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE04CBD71BD4F0AC00B7C56F /* Assets.xcassets */; };
+		DE04CBDB1BD4F0AC00B7C56F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE04CBD91BD4F0AC00B7C56F /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A77041651D1D80F7009833D8 /* CKShareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKShareCell.h; sourceTree = "<group>"; };
+		A77041661D1D80F7009833D8 /* CKShareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKShareCell.m; sourceTree = "<group>"; };
+		A77041671D1D80F7009833D8 /* CKShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKShareItem.h; sourceTree = "<group>"; };
+		A77041681D1D80F7009833D8 /* CKShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKShareItem.m; sourceTree = "<group>"; };
+		A77041691D1D80F7009833D8 /* CKShareModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKShareModel.h; sourceTree = "<group>"; };
+		A770416A1D1D80F7009833D8 /* CKShareModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKShareModel.m; sourceTree = "<group>"; };
+		A770416B1D1D80F7009833D8 /* CKShareSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKShareSheet.h; sourceTree = "<group>"; };
+		A770416C1D1D80F7009833D8 /* CKShareSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKShareSheet.m; sourceTree = "<group>"; };
+		DE04CBC81BD4F0AC00B7C56F /* CKShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE04CBCC1BD4F0AC00B7C56F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE04CBCE1BD4F0AC00B7C56F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE04CBCF1BD4F0AC00B7C56F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE04CBD11BD4F0AC00B7C56F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE04CBD21BD4F0AC00B7C56F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE04CBD51BD4F0AC00B7C56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE04CBD71BD4F0AC00B7C56F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE04CBDA1BD4F0AC00B7C56F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE04CBDC1BD4F0AC00B7C56F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE04CBC51BD4F0AC00B7C56F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE04CBBF1BD4F0AC00B7C56F = {
+			isa = PBXGroup;
+			children = (
+				DE04CBCA1BD4F0AC00B7C56F /* CKShare */,
+				DE04CBC91BD4F0AC00B7C56F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE04CBC91BD4F0AC00B7C56F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE04CBC81BD4F0AC00B7C56F /* CKShare.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE04CBCA1BD4F0AC00B7C56F /* CKShare */ = {
+			isa = PBXGroup;
+			children = (
+				DE04CBE21BD4F0BA00B7C56F /* CKShares */,
+				DE04CBCE1BD4F0AC00B7C56F /* AppDelegate.h */,
+				DE04CBCF1BD4F0AC00B7C56F /* AppDelegate.m */,
+				DE04CBD11BD4F0AC00B7C56F /* ViewController.h */,
+				DE04CBD21BD4F0AC00B7C56F /* ViewController.m */,
+				DE04CBD41BD4F0AC00B7C56F /* Main.storyboard */,
+				DE04CBD71BD4F0AC00B7C56F /* Assets.xcassets */,
+				DE04CBD91BD4F0AC00B7C56F /* LaunchScreen.storyboard */,
+				DE04CBDC1BD4F0AC00B7C56F /* Info.plist */,
+				DE04CBCB1BD4F0AC00B7C56F /* Supporting Files */,
+			);
+			name = CKShare;
+			path = FSShareSheet;
+			sourceTree = "<group>";
+		};
+		DE04CBCB1BD4F0AC00B7C56F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE04CBCC1BD4F0AC00B7C56F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE04CBE21BD4F0BA00B7C56F /* CKShares */ = {
+			isa = PBXGroup;
+			children = (
+				A77041651D1D80F7009833D8 /* CKShareCell.h */,
+				A77041661D1D80F7009833D8 /* CKShareCell.m */,
+				A77041671D1D80F7009833D8 /* CKShareItem.h */,
+				A77041681D1D80F7009833D8 /* CKShareItem.m */,
+				A77041691D1D80F7009833D8 /* CKShareModel.h */,
+				A770416A1D1D80F7009833D8 /* CKShareModel.m */,
+				A770416B1D1D80F7009833D8 /* CKShareSheet.h */,
+				A770416C1D1D80F7009833D8 /* CKShareSheet.m */,
+			);
+			name = CKShares;
+			path = FSShareSheet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE04CBC71BD4F0AC00B7C56F /* CKShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE04CBDF1BD4F0AC00B7C56F /* Build configuration list for PBXNativeTarget "CKShare" */;
+			buildPhases = (
+				DE04CBC41BD4F0AC00B7C56F /* Sources */,
+				DE04CBC51BD4F0AC00B7C56F /* Frameworks */,
+				DE04CBC61BD4F0AC00B7C56F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CKShare;
+			productName = FSShareSheet;
+			productReference = DE04CBC81BD4F0AC00B7C56F /* CKShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE04CBC01BD4F0AC00B7C56F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = lifution;
+				TargetAttributes = {
+					DE04CBC71BD4F0AC00B7C56F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = DE04CBC31BD4F0AC00B7C56F /* Build configuration list for PBXProject "CKShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE04CBBF1BD4F0AC00B7C56F;
+			productRefGroup = DE04CBC91BD4F0AC00B7C56F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE04CBC71BD4F0AC00B7C56F /* CKShare */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE04CBC61BD4F0AC00B7C56F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE04CBDB1BD4F0AC00B7C56F /* LaunchScreen.storyboard in Resources */,
+				DE04CBD81BD4F0AC00B7C56F /* Assets.xcassets in Resources */,
+				DE04CBD61BD4F0AC00B7C56F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE04CBC41BD4F0AC00B7C56F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE04CBD31BD4F0AC00B7C56F /* ViewController.m in Sources */,
+				A770416D1D1D80F7009833D8 /* CKShareCell.m in Sources */,
+				DE04CBD01BD4F0AC00B7C56F /* AppDelegate.m in Sources */,
+				A770416E1D1D80F7009833D8 /* CKShareItem.m in Sources */,
+				A77041701D1D80F7009833D8 /* CKShareSheet.m in Sources */,
+				DE04CBCD1BD4F0AC00B7C56F /* main.m in Sources */,
+				A770416F1D1D80F7009833D8 /* CKShareModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE04CBD41BD4F0AC00B7C56F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE04CBD51BD4F0AC00B7C56F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE04CBD91BD4F0AC00B7C56F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE04CBDA1BD4F0AC00B7C56F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE04CBDD1BD4F0AC00B7C56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE04CBDE1BD4F0AC00B7C56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE04CBE01BD4F0AC00B7C56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSShareSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifution.FSShareSheet;
+				PRODUCT_NAME = CKShare;
+			};
+			name = Debug;
+		};
+		DE04CBE11BD4F0AC00B7C56F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FSShareSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lifution.FSShareSheet;
+				PRODUCT_NAME = CKShare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE04CBC31BD4F0AC00B7C56F /* Build configuration list for PBXProject "CKShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE04CBDD1BD4F0AC00B7C56F /* Debug */,
+				DE04CBDE1BD4F0AC00B7C56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE04CBDF1BD4F0AC00B7C56F /* Build configuration list for PBXNativeTarget "CKShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE04CBE01BD4F0AC00B7C56F /* Debug */,
+				DE04CBE11BD4F0AC00B7C56F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE04CBC01BD4F0AC00B7C56F /* Project object */;
+}
